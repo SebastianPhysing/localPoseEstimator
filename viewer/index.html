@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pose playback</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: #000; color: #888; font: 13px monospace; }
+    #info { position: fixed; top: 10px; left: 10px; }
+    #controls { position: fixed; bottom: 10px; left: 10px; right: 10px; display: flex; gap: 10px; }
+    #slider { flex: 1; }
+  </style>
+  <script type="importmap">
+    { "imports": { "three": "./vendor/three.module.js", "three/addons/": "./vendor/addons/" } }
+  </script>
+</head>
+<body>
+  <div id="info">loading ...</div>
+  <div id="controls">
+    <button id="play">Play</button>
+    <input id="slider" type="range" min="0" max="0" value="0">
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
