@@ -23,4 +23,4 @@ python3 triangulate.py ../peakCVSyncVid/recordings/test/synced --min-views 3
 ### Visualize
 ```console
 python3 view.py ../peakCVSyncVid/recordings/test/synce
-```# localPoseEstimator
+```
